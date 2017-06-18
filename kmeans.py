@@ -37,7 +37,7 @@ def kmeans(filepath, k, wx = 1.0, wy = 1.0, outdir = None):
         idxs = tf.constant([(j,k) for j in range(m) for k in range(n)], dtype=tf.float32)
         pixel_array = tf.concat([idxs, tf.to_float(tf.reshape(pixels, shape=(m * n, chann)))], 1)
         # weight the values
-        weights = (wx/float(m), wy/float(n), 1.0/255.0, 1.0/255.0, 1.0/255.0)
+        weights = (wx/float(max(m,n)), wy/float(max(m,n)), 1.0/255.0, 1.0/255.0, 1.0/255.0)
         weight_mold = tf.cast(tf.tile([weights], [m * n, 1]), tf.float32)
         weighted_pix_array = tf.multiply(weight_mold, pixel_array)
 
@@ -120,10 +120,12 @@ if __name__ == '__main__':
     # readpath = os.path.join(inputpath, "nagano_train_480x360.jpeg")
     # readpath = os.path.join(inputpath, "nagano_train_960x720.jpeg")
 
-    readpath = os.path.join(inputpath, "hiking_trail_576x324.jpeg")
+    # readpath = os.path.join(inputpath, "flower_646x348.jpeg")
+    readpath = os.path.join(inputpath, "flower_1856x1392.jpeg")
 
 
-    kmeans(readpath, 50, 3.0, 1.0, outpath)
+    kmeans(readpath, 13, 5.0, 5.0, outpath)
+    # kmeans(readpath, 5, 0.5, 0.5, outpath)
 
     # for i in range(10,110,20):
     #     kmeans(readpath, i, 0.0, 0.0, outpath)

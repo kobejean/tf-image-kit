@@ -28,7 +28,7 @@ kmeans(readpath, 75, 3.0, 3.0, outpath)
 ```
 
 <p align="center">
-    <a href="docs/media/docs/media/kmeans_kurohime_bike_480x270_k50_wx3.0_wy1.0_40f.gif"><img src="docs/media/kmeans_kurohime_bike_480x270_k50_wx3.0_wy1.0_40f.gif" alt="gif"  width="240"/></a>
+    <a href="docs/media/kmeans_kurohime_bike_480x270_k50_wx3.0_wy1.0_40f.gif"><img src="docs/media/kmeans_kurohime_bike_480x270_k50_wx3.0_wy1.0_40f.gif" alt="gif"  width="240"/></a>
 </p>
 
 ```python
