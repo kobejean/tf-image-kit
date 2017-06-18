@@ -8,7 +8,7 @@ from PIL import Image
 # adapted from https://gist.github.com/dave-andersen/265e68a5e879b5540ebc
 # and https://github.com/meereeum/k-meanz/
 
-MAX_ITERS = 10
+MAX_ITERS = 1000
 PERIOD = 1
 
 def kmeans(filepath, k, wx = 1.0, wy = 1.0, outdir = None):
@@ -82,7 +82,8 @@ def kmeans(filepath, k, wx = 1.0, wy = 1.0, outdir = None):
 
             if iters % PERIOD == 0:
                 now = datetime.datetime.today().strftime('%Y%m%d_%H%M%S')
-                outpath = os.path.join(outdir, '{}_{}_k{}_wx{}_wy{}_i{}{}'.format(basename, now, k, wx, wy, iters, ext))
+                outpath = os.path.join(outdir, '{}_k{}_wx{}_wy{}_i{}{}'\
+                    .format(basename, k, wx, wy, str(iters).zfill(3), ext))
                 [centers, assignments] = session.run([centroids, cluster_assignments])
                 end = time.time()
                 print("CENTROIDS:")
@@ -105,29 +106,37 @@ def kmeans(filepath, k, wx = 1.0, wy = 1.0, outdir = None):
                 with open(outpath, 'wb') as f:
                     f.write(image)
 
+if __name__ == '__main__':
 
-print("RUNNING")
-abspath = os.path.abspath(os.path.dirname(__file__))
-inputpath = os.path.join(abspath, "input")
-outpath = os.path.join(abspath, "output")
+    print("RUNNING")
+    abspath = os.path.abspath(os.path.dirname(__file__))
+    inputpath = os.path.join(abspath, "input")
+    outpath = os.path.join(abspath, "output")
+    # docspath = os.path.join(abspath, "docs")
 
-ntreadpath = os.path.join(inputpath, "nagano_train.jpeg")
-kbreadpath = os.path.join(inputpath, "kurohime_bike.jpeg")
+    # readpath = os.path.join(inputpath, "kurohime_bike_480x270.jpeg")
+    # readpath = os.path.join(inputpath, "kurohime_bike_960x540.jpeg")
+    # readpath = os.path.join(inputpath, "kurohime_bike_1920x1080.jpeg")
+    # readpath = os.path.join(inputpath, "nagano_train_480x360.jpeg")
+    # readpath = os.path.join(inputpath, "nagano_train_960x720.jpeg")
 
-# kmeans(kbreadpath, 10, 0.0, 0.0, outpath)
+    readpath = os.path.join(inputpath, "hiking_trail_576x324.jpeg")
 
-# for i in range(10,100,10):
-#     kmeans(ntreadpath, i, 0.0, 0.0, outpath)
-#     kmeans(ntreadpath, i, 0.1, 0.1, outpath)
-#     kmeans(ntreadpath, i, 0.5, 0.5, outpath)
-#     kmeans(ntreadpath, i, 1.0, 1.0, outpath)
-#     kmeans(ntreadpath, i, 0.0, 1.0, outpath)
-#     kmeans(ntreadpath, i, 1.0, 0.0, outpath)
 
-for i in range(10,100,10):
-    kmeans(kbreadpath, i, 0.0, 0.0, outpath)
-    kmeans(kbreadpath, i, 0.1, 0.1, outpath)
-    kmeans(kbreadpath, i, 0.5, 0.5, outpath)
-    kmeans(kbreadpath, i, 1.0, 1.0, outpath)
-    kmeans(kbreadpath, i, 0.0, 1.0, outpath)
-    kmeans(kbreadpath, i, 1.0, 0.0, outpath)
+    kmeans(readpath, 50, 3.0, 1.0, outpath)
+
+    # for i in range(10,110,20):
+    #     kmeans(readpath, i, 0.0, 0.0, outpath)
+    #     kmeans(readpath, i, 0.1, 0.1, outpath)
+    #     kmeans(readpath, i, 0.5, 0.5, outpath)
+    #     kmeans(readpath, i, 1.0, 1.0, outpath)
+    #     kmeans(readpath, i, 0.0, 1.0, outpath)
+    #     kmeans(readpath, i, 1.0, 0.0, outpath)
+
+    # for i in range(10,110,20):
+    #     kmeans(readpath, i, 0.0, 0.0, outpath)
+    #     kmeans(readpath, i, 0.1, 0.1, outpath)
+    #     kmeans(readpath, i, 0.5, 0.5, outpath)
+    #     kmeans(readpath, i, 1.0, 1.0, outpath)
+    #     kmeans(readpath, i, 0.0, 1.0, outpath)
+    #     kmeans(readpath, i, 1.0, 0.0, outpath)
