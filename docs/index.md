@@ -11,10 +11,12 @@ Here we are using k-means clustering to cluster `(x,y,r,g,b)` values. This creat
     <a href="media/input/nagano_train_960x720.jpeg"><img src="media/input/nagano_train_480x360.jpeg" alt="image"  width="240"/></a>
     <a href="media/input/kurohime_bike_1920x1080.jpeg"><img src="media/input/kurohime_bike_480x270.jpeg" alt="image"  width="240"/></a>
     <a href="media/input/flower_1856x1392.jpeg"><img src="media/input/flower_464x348.jpeg" alt="image"  width="240"/></a>
-
+</p>
+<p align="center">
                                     |
                                     v
-
+</p>
+<p align="center">
     <a href="media/kmeans_nagano_train_480x360_k75_wx3.0_wy3.0_40f.gif"><img src="media/kmeans_nagano_train_480x360_k75_wx3.0_wy3.0_40f.gif" alt="gif"  width="240"/></a>
     <a href="media/kmeans_kurohime_bike_480x270_k50_wx3.0_wy1.0_40f.gif"><img src="media/kmeans_kurohime_bike_480x270_k50_wx3.0_wy1.0_40f.gif" alt="gif"  width="240"/></a>
     <a href="media/kmeans_flower_464x348_k16_wx5.0_wy5.0_40f.gif"><img src="media/kmeans_flower_464x348_k16_wx5.0_wy5.0_40f.gif" alt="gif"  width="240"/></a>
