@@ -8,6 +8,13 @@
 Here we are using k-means clustering to cluster `(x,y,r,g,b)` values. This creates an image segmentation effect.
 
 <p align="center">
+    <a href="input/nagano_train_480x360.jpeg"><img src="input/nagano_train_480x360.jpeg" alt="image"  width="240"/></a>
+    <a href="input/kurohime_bike_480x270.jpeg"><img src="input/kurohime_bike_480x270.jpeg" alt="image"  width="240"/></a>
+    <a href="input/flower_464x348.jpeg"><img src="input/flower_464x348.jpeg" alt="image"  width="240"/></a>
+    </br>
+    </br>                               |
+    </br>                               v
+    </br>
     <a href="docs/media/kmeans_nagano_train_480x360_k75_wx3.0_wy3.0_40f.gif"><img src="docs/media/kmeans_nagano_train_480x360_k75_wx3.0_wy3.0_40f.gif" alt="gif"  width="240"/></a>
     <a href="docs/media/kmeans_kurohime_bike_480x270_k50_wx3.0_wy1.0_40f.gif"><img src="docs/media/kmeans_kurohime_bike_480x270_k50_wx3.0_wy1.0_40f.gif" alt="gif"  width="240"/></a>
     <a href="docs/media/kmeans_flower_464x348_k16_wx5.0_wy5.0_40f.gif"><img src="docs/media/kmeans_flower_464x348_k16_wx5.0_wy5.0_40f.gif" alt="gif"  width="240"/></a>
