@@ -76,7 +76,7 @@ kmeans(readpath, 16, 5.0, 5.0, outpath)
 -->
 
 <p align="center">
-    <video width="480" height="360" controls>
+    <video width="480" height="360" preload="none" poster="media/kmeans_nagano_train_960x720_k5_wx0.5_wy0.5_thumb@2x.jpeg" controls loop>
         <source src="media/kmeans_nagano_train_960x720_k5_wx0.5_wy0.5.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
         <a href="https://drive.google.com/open?id=0By-CMfnYF6bZcmRhczg3M0xtOWs"><img src="media/kmeans_nagano_train_960x720_k5_wx0.5_wy0.5_thumb@2x.jpeg" alt="video"  width="480"/></a>
@@ -92,7 +92,7 @@ kmeans(readpath, 5, 0.5, 0.5, outpath)
 
 
 <p align="center">
-    <video width="480" height="270" controls>
+    <video width="480" height="270" preload="none" poster="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0_thumb_scaled@2x.jpg" controls loop>
         <source src="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
         <a href="https://drive.google.com/open?id=0By-CMfnYF6bZNDNMWW8tNGVNNGM"><img src="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0_thumb_scaled@2x.jpg" alt="video"  width="480"/></a>
@@ -108,7 +108,7 @@ kmeans(readpath, 50, 3.0, 1.0, outpath)
 
 
 <p align="center">
-    <video width="480" height="270" controls>
+    <video width="480" height="270" preload="none" poster="media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0_thumb_scaled@2x.jpg" controls loop>
         <source src="media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
         <a href="https://drive.google.com/open?id=0By-CMfnYF6bZSWQxa1hqM1FlaWc"><img src="media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0_thumb_scaled@2x.jpg" alt="video"  width="464"/></a>
@@ -124,7 +124,7 @@ kmeans(readpath, 16, 5.0, 5.0, outpath)
 <!--  EXTRAS -->
 
 <p align="center">
-    <video width="480" height="270" controls>
+    <video width="480" height="270" preload="none" poster="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy3.0_thumb_scaled@2x.jpg" controls loop>
         <source src="media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
         <a href="https://drive.google.com/open?id=0By-CMfnYF6bZSlUxWmJUYWNuNEE"><img src="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy3.0_thumb_scaled@2x.jpg" alt="video"  width="480"/></a>
@@ -140,7 +140,7 @@ kmeans(readpath, 50, 3.0, 3.0, outpath)
 
 
 <p align="center">
-    <video width="480" height="270" controls>
+    <video width="480" height="270" preload="none" poster="media/kmeans_nagano_train_960x720_k100_wx4.0_wy4.0_thumb@2x.jpeg" controls loop>
         <source src="media/kmeans_nagano_train_960x720_k100_wx4.0_wy4.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
         <a href="https://drive.google.com/open?id=0By-CMfnYF6bZM0FCM1VxV0VmdEk"><img src="media/kmeans_nagano_train_960x720_k100_wx4.0_wy4.0_thumb@2x.jpeg" alt="video"  width="480"/></a>
@@ -156,7 +156,7 @@ kmeans(readpath, 100, 4.0, 4.0, outpath)
 
 
 <p align="center">
-    <video width="480" height="270" controls>
+    <video width="480" height="270" preload="none" poster="media/kmeans_kurohime_bike_960x540_k100_wx4.0_wy4.0_thumb@2x.jpeg" controls loop>
         <source src="media/kmeans_kurohime_bike_960x540_k100_wx4.0_wy4.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
         <a href="https://drive.google.com/open?id=0By-CMfnYF6bZSUQ4MnF1ejNQd0E"><img src="media/kmeans_kurohime_bike_960x540_k100_wx4.0_wy4.0_thumb@2x.jpeg" alt="video"  width="480"/></a>
