@@ -8,9 +8,9 @@
 Here we are using k-means clustering to cluster `(x,y,r,g,b)` values. This creates an image segmentation effect.
 
 <p align="center">
-    <a href="input/nagano_train_480x360.jpeg"><img src="input/nagano_train_480x360.jpeg" alt="image"  width="240"/></a>
-    <a href="input/kurohime_bike_480x270.jpeg"><img src="input/kurohime_bike_480x270.jpeg" alt="image"  width="240"/></a>
-    <a href="input/flower_464x348.jpeg"><img src="input/flower_464x348.jpeg" alt="image"  width="240"/></a>
+    <a href="input/nagano_train_960x720.jpeg"><img src="input/nagano_train_480x360.jpeg" alt="image"  width="240"/></a>
+    <a href="input/kurohime_bike_1920x1080.jpeg"><img src="input/kurohime_bike_480x270.jpeg" alt="image"  width="240"/></a>
+    <a href="input/flower_1856x1392.jpeg"><img src="input/flower_464x348.jpeg" alt="image"  width="240"/></a>
     </br>
     </br>                               |
     </br>                               v
