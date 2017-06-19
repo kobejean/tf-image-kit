@@ -120,7 +120,7 @@ if __name__ == '__main__':
     # readpath = os.path.join(inputpath, "nagano_train_480x360.jpeg")
     # readpath = os.path.join(inputpath, "nagano_train_960x720.jpeg")
 
-    # readpath = os.path.join(inputpath, "flower_646x348.jpeg")
+    # readpath = os.path.join(inputpath, "flower_464x348.jpeg")
     # readpath = os.path.join(inputpath, "flower_1856x1392.jpeg")
 
 
