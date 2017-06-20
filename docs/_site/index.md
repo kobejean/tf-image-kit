@@ -168,5 +168,3 @@ from kmeans import *
 # read from input/kurohime_bike_960x540.jpeg
 kmeans(readpath, 100, 4.0, 4.0, outpath)
 ```
-
-<script src="http://vjs.zencdn.net/5.8.8/video.js"></script>
