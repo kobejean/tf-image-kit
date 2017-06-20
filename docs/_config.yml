@@ -1,3 +1,6 @@
 theme: jekyll-theme-cayman
 permalink: pretty
 repository: kobejean/tf-image-kit
+video: true
+header:
+  overlay_image: /media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0_i139.jpeg

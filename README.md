@@ -86,7 +86,7 @@ kmeans(readpath, 5, 0.5, 0.5, outpath)
 
 
 <p align="center">
-    <a href="https://drive.google.com/open?id=0By-CMfnYF6bZNDNMWW8tNGVNNGM"><img src="docs/media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0_thumb_scaled@2x.jpg" alt="video"  width="480"/></a>
+    <a href="https://drive.google.com/open?id=0By-CMfnYF6bZNDNMWW8tNGVNNGM"><img src="docs/media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0_thumb_scaled@2x.jpeg" alt="video"  width="480"/></a>
 </p>
 
 ```python
@@ -98,7 +98,7 @@ kmeans(readpath, 50, 3.0, 1.0, outpath)
 
 
 <p align="center">
-    <a href="https://drive.google.com/open?id=0By-CMfnYF6bZSWQxa1hqM1FlaWc"><img src="docs/media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0_thumb_scaled@2x.jpg" alt="video"  width="464"/></a>
+    <a href="https://drive.google.com/open?id=0By-CMfnYF6bZSWQxa1hqM1FlaWc"><img src="docs/media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0_thumb_scaled@2x.jpeg" alt="video"  width="464"/></a>
 </p>
 
 ```python
@@ -110,7 +110,7 @@ kmeans(readpath, 16, 5.0, 5.0, outpath)
 <!--  EXTRAS -->
 
 <p align="center">
-    <a href="https://drive.google.com/open?id=0By-CMfnYF6bZSlUxWmJUYWNuNEE"><img src="docs/media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy3.0_thumb_scaled@2x.jpg" alt="video"  width="480"/></a>
+    <a href="https://drive.google.com/open?id=0By-CMfnYF6bZSlUxWmJUYWNuNEE"><img src="docs/media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy3.0_thumb_scaled@2x.jpeg" alt="video"  width="480"/></a>
 </p>
 
 ```python
