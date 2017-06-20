@@ -13,7 +13,7 @@ Here we are using k-means clustering to cluster `(x,y,r,g,b)` values. This creat
     <a href="media/input/flower_1856x1392.jpeg"><img src="media/input/flower_464x348.jpeg" alt="image"  width="240"/></a>
 </p>
 <p align="center">
-                                    |
+                                    |<br/>
                                     v
 </p>
 <p align="center">
