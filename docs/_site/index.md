@@ -77,7 +77,10 @@ kmeans(readpath, 16, 5.0, 5.0, outpath)
 
 -->
 
+---
+<a name="example-1"></a>
 <p align="center">
+    <b>Example 1</b><br/><br/>
     <video width="480" height="360" class="video-js vjs-default-skin" preload="none" poster="media/kmeans_nagano_train_960x720_k5_wx0.5_wy0.5_poster.jpeg" controls data-setup='{"inactivityTimeout": 100, "playbackRates": [0.25, 0.5, 0.75, 1.0] }'>
         <source src="media/kmeans_nagano_train_960x720_k5_wx0.5_wy0.5.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
@@ -92,8 +95,10 @@ kmeans(readpath, 5, 0.5, 0.5, outpath)
 ```
 
 
-
+---
+<a name="example-2"></a>
 <p align="center">
+    <b>Example 2</b><br/><br/>
     <video width="480" height="270" class="video-js vjs-default-skin" preload="none" poster="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0_poster.jpeg" controls data-setup='{"inactivityTimeout": 100, "playbackRates": [0.25, 0.5, 0.75, 1.0] }'>
         <source src="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
@@ -108,8 +113,10 @@ kmeans(readpath, 50, 3.0, 1.0, outpath)
 ```
 
 
-
+---
+<a name="example-3"></a>
 <p align="center">
+    <b>Example 3</b><br/><br/>
     <video width="464" height="348" class="video-js vjs-default-skin" preload="none" poster="media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0_poster.jpeg" controls data-setup='{"inactivityTimeout": 100, "playbackRates": [0.25, 0.5, 0.75, 1.0] }'>
         <source src="media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
@@ -125,7 +132,11 @@ kmeans(readpath, 16, 5.0, 5.0, outpath)
 
 <!--  EXTRAS -->
 
+
+---
+<a name="example-4"></a>
 <p align="center">
+    <b>Example 4</b><br/><br/>
     <video width="480" height="270" class="video-js vjs-default-skin" preload="none" poster="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy3.0_poster.jpeg" controls data-setup='{"inactivityTimeout": 100, "playbackRates": [0.25, 0.5, 0.75, 1.0] }'>
         <source src="media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy3.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
@@ -140,8 +151,10 @@ kmeans(readpath, 50, 3.0, 3.0, outpath)
 ```
 
 
-
+---
+<a name="example-5"></a>
 <p align="center">
+    <b>Example 5</b><br/><br/>
     <video width="480" height="360" class="video-js vjs-default-skin" preload="none" poster="media/kmeans_nagano_train_960x720_k100_wx4.0_wy4.0_poster.jpeg" controls data-setup='{"inactivityTimeout": 100, "playbackRates": [0.25, 0.5, 0.75, 1.0] }'>
         <source src="media/kmeans_nagano_train_960x720_k100_wx4.0_wy4.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
@@ -156,8 +169,10 @@ kmeans(readpath, 100, 4.0, 4.0, outpath)
 ```
 
 
-
+---
+<a name="example-6"></a>
 <p align="center">
+    <b>Example 6</b><br/><br/>
     <video width="480" height="270" class="video-js vjs-default-skin" preload="none" poster="media/kmeans_kurohime_bike_960x540_k100_wx4.0_wy4.0_poster.jpeg" controls data-setup='{"inactivityTimeout": 100, "playbackRates": [0.25, 0.5, 0.75, 1.0] }'>
         <source src="media/kmeans_kurohime_bike_960x540_k100_wx4.0_wy4.0.mp4" type="video/mp4">
         <!-- link to video if <video> tag fails-->
