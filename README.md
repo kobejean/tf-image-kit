@@ -76,7 +76,7 @@ kmeans(readpath, 16, 5.0, 5.0, outpath)
 ---
 <a name="example-1"></a>
 <p align="center">
-    **Example 1**<br/><br/>
+    <b>Example 1</b><br/><br/>
     <a href="https://kobejean.github.io/tf-image-kit/#example-1"><img src="docs/media/kmeans_nagano_train_960x720_k5_wx0.5_wy0.5_thumb@2x.jpeg" alt="video"  width="480"/></a>
 </p>
 
@@ -91,7 +91,7 @@ kmeans(readpath, 5, 0.5, 0.5, outpath)
 ---
 <a name="example-2"></a>
 <p align="center">
-    **Example 2**<br/><br/>
+    <b>Example 2</b><br/><br/>
     <a href="https://kobejean.github.io/tf-image-kit/#example-2"><img src="docs/media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy1.0_thumb_scaled@2x.jpeg" alt="video"  width="480"/></a>
 </p>
 
@@ -106,7 +106,7 @@ kmeans(readpath, 50, 3.0, 1.0, outpath)
 ---
 <a name="example-3"></a>
 <p align="center">
-    **Example 3**<br/><br/>
+    <b>Example 3</b><br/><br/>
     <a href="https://kobejean.github.io/tf-image-kit/#example-3"><img src="docs/media/kmeans_flower_1856x1392_k16_wx5.0_wy5.0_thumb_scaled@2x.jpeg" alt="video"  width="464"/></a>
 </p>
 
@@ -122,7 +122,7 @@ kmeans(readpath, 16, 5.0, 5.0, outpath)
 ---
 <a name="example-4"></a>
 <p align="center">
-    **Example 4**<br/><br/>
+    <b>Example 4</b><br/><br/>
     <a href="https://kobejean.github.io/tf-image-kit/#example-4"><img src="docs/media/kmeans_kurohime_bike_1920x1080_k50_wx3.0_wy3.0_thumb_scaled@2x.jpeg" alt="video"  width="480"/></a>
 </p>
 
@@ -137,7 +137,7 @@ kmeans(readpath, 50, 3.0, 3.0, outpath)
 ---
 <a name="example-5"></a>
 <p align="center">
-    **Example 5**<br/><br/>
+    <b>Example 5</b><br/><br/>
     <a href="https://kobejean.github.io/tf-image-kit/#example-5"><img src="docs/media/kmeans_nagano_train_960x720_k100_wx4.0_wy4.0_thumb@2x.jpeg" alt="video"  width="480"/></a>
 </p>
 
@@ -152,7 +152,7 @@ kmeans(readpath, 100, 4.0, 4.0, outpath)
 ---
 <a name="example-6"></a>
 <p align="center">
-    **Example 6**<br/><br/>
+    <b>Example 6</b><br/><br/>
     <a href="https://kobejean.github.io/tf-image-kit/#example-6"><img src="docs/media/kmeans_kurohime_bike_960x540_k100_wx4.0_wy4.0_thumb@2x.jpeg" alt="video"  width="480"/></a>
 </p>
 
