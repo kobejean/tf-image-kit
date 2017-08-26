@@ -27,7 +27,7 @@ def roll(filepath, outdir = None):
 
         pixels = decoder(input_image)
         m, n, chann = tf.shape(pixels).eval()
-        rolled = tf.roll(pixels, shift=[m/2, n/2], axis=[0,1])
+        rolled = tf.roll(pixels, shift=[int(m/2), int(n/2)], axis=[0,1])
 
         init = tf.global_variables_initializer()
         session.run(init)
