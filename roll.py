@@ -17,9 +17,6 @@ def roll(filepath, outdir = None):
 
     outdir = os.path.expanduser(outdir if outdir else "")
 
-    # with tf.device('/cpu:0'): # for CPU
-    with tf.device('/gpu:0'): # for GPU
-
         decoder = (tf.image.decode_jpeg if is_jpeg else tf.image.decode_png)
         encoder = (tf.image.encode_jpeg if is_jpeg else tf.image.encode_png)
 
@@ -30,7 +27,9 @@ def roll(filepath, outdir = None):
 
             pixels = decoder(input_image)
             m, n, chann = tf.shape(pixels).eval()
-            rolled = tf.roll(pixels, shift=[int(m/2), int(n/2)], axis=[0,1])
+            # with tf.device('/cpu:0'): # for CPU
+            with tf.device('/gpu:0'): # for GPU
+                rolled = tf.roll(pixels, shift=[int(m/2), int(n/2)], axis=[0,1])
 
             init = tf.global_variables_initializer()
             session.run(init)
