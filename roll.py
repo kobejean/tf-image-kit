@@ -55,12 +55,12 @@ if __name__ == '__main__':
 
     # readpath = os.path.join(inputpath, "kurohime_bike_480x270.jpeg")
     # readpath = os.path.join(inputpath, "kurohime_bike_960x540.jpeg")
-    # readpath = os.path.join(inputpath, "kurohime_bike_1920x1080.jpeg")
+    readpath = os.path.join(inputpath, "kurohime_bike_1920x1080.jpeg")
     # readpath = os.path.join(inputpath, "nagano_train_480x360.jpeg")
     # readpath = os.path.join(inputpath, "nagano_train_960x720.jpeg")
 
     # readpath = os.path.join(inputpath, "flower_464x348.jpeg")
-    readpath = os.path.join(inputpath, "flower_1856x1392.jpeg")
+    # readpath = os.path.join(inputpath, "flower_1856x1392.jpeg")
 
 
     # kmeans(readpath, 13, 5.0, 5.0, outpath)
