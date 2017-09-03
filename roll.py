@@ -28,8 +28,11 @@ def roll(filepath, outdir = None):
         pixels = decoder(input_image)
         m, n, chann = tf.shape(pixels).eval()
         # with tf.device('/cpu:0'): # for CPU
+        pix_32 = tf.cast(pixels, tf.int32)
         with tf.device('/gpu:0'): # for GPU
-            rolled = tf.roll(pixels, shift=[int(m/2), int(n/2)], axis=[0,1])
+            rolled_32 = tf.roll(pix_32, shift=[int(m/2), int(n/2)], axis=[0,1])
+
+        rolled = tf.cast(pixels, tf.uint8)
 
         init = tf.global_variables_initializer()
         session.run(init)
