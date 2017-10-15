@@ -30,7 +30,7 @@ def roll(filepath, outdir = None):
         # with tf.device('/cpu:0'): # for CPU
         pix_32 = tf.cast(pixels, tf.float32)
         with tf.device('/gpu:0'): # for GPU
-            rolled_32 = tf.roll(pix_32, shift=[int(m/2), int(n/2)], axis=[0,1])
+            rolled_32 = tf.manip.roll(pix_32, shift=[int(m/2), int(n/2)], axis=[0,1])
 
         rolled = tf.cast(pixels, tf.uint8)
 
