@@ -30,7 +30,7 @@ def roll(filepath, outdir = None):
         pix_32 = tf.cast(pixels, tf.float32)
         with tf.device('/cpu:0'): # for CPU
         # with tf.device('/gpu:0'): # for GPU
-            rolled_32 = tf.manip.roll(pix_32, shift=[int(m/2), int(n/2)], axis=[0,1])
+            rolled_32 = tf.manip.roll(pix_32, shift=[int(m/3), -int(n/4)], axis=[0,1])
 
         rolled = tf.cast(rolled_32, tf.uint8)
 
@@ -57,12 +57,12 @@ if __name__ == '__main__':
 
     # readpath = os.path.join(inputpath, "kurohime_bike_480x270.jpeg")
     # readpath = os.path.join(inputpath, "kurohime_bike_960x540.jpeg")
-    # readpath = os.path.join(inputpath, "kurohime_bike_1920x1080.jpeg")
+    readpath = os.path.join(inputpath, "kurohime_bike_1920x1080.jpeg")
     # readpath = os.path.join(inputpath, "nagano_train_480x360.jpeg")
     # readpath = os.path.join(inputpath, "nagano_train_960x720.jpeg")
 
     # readpath = os.path.join(inputpath, "flower_464x348.jpeg")
-    readpath = os.path.join(inputpath, "flower_1856x1392.jpeg")
+    # readpath = os.path.join(inputpath, "flower_1856x1392.jpeg")
 
 
     # kmeans(readpath, 13, 5.0, 5.0, outpath)

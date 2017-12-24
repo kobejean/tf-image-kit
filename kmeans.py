@@ -114,7 +114,8 @@ if __name__ == '__main__':
     outpath = os.path.join(abspath, "output")
     # docspath = os.path.join(abspath, "docs")
 
-    readpath = os.path.join(inputpath, "kurohime_bike_480x270.jpeg")
+    # readpath = os.path.join(inputpath, "kurohime_bike_480x270.jpeg")
+    readpath = os.path.join(inputpath, "bg.jpeg")
     # readpath = os.path.join(inputpath, "kurohime_bike_960x540.jpeg")
     # readpath = os.path.join(inputpath, "kurohime_bike_1920x1080.jpeg")
     # readpath = os.path.join(inputpath, "nagano_train_480x360.jpeg")
@@ -125,7 +126,8 @@ if __name__ == '__main__':
 
 
     # kmeans(readpath, 13, 5.0, 5.0, outpath)
-    kmeans(readpath, 50, 5.0, 5.0, outpath)
+    # kmeans(readpath, 50, 5.0, 5.0, outpath)
+    kmeans(readpath, 50, 4, 2, outpath)
 
     # for i in range(10,110,20):
     #     kmeans(readpath, i, 0.0, 0.0, outpath)
